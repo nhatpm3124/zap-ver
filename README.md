@@ -244,7 +244,7 @@ done
 ## 📞 Support
 
 For security issues or questions:
-- 📧 Email: security@yourdomain.com
+- 📧 Email: nhatpm.sg@gmail.com
 - 📋 Documentation: `backend/SECURITY.md`
 - 🐛 Issues: Create a GitHub issue
 

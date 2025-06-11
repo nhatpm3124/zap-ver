@@ -90,4 +90,4 @@ test-results/
 # Application Specific
 application-local.properties
 application-dev.properties
-application-prod.properties 
+application-prod.properties frontend/
