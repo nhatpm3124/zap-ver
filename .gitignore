@@ -1,0 +1,93 @@
+# ===========================================
+# Simple Login Project .gitignore
+# ===========================================
+
+# Environment & Security Files
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+*.p12
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+database.db
+h2/
+
+# Logs
+logs/
+*.log
+*.log.*
+log/
+*.out
+
+# Java/Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js (for future frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+dist/
+build/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+
+# Security & Testing
+coverage/
+.nyc_output/
+test-results/
+*.tgz
+*.tar.gz
+
+# Spring Boot
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Application Specific
+application-local.properties
+application-dev.properties
+application-prod.properties 
